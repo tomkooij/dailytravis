@@ -11,3 +11,4 @@ install:
 
 script:
   - python -v
+  - python -c "import sapphire; sapphire.run_tests()"
