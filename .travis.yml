@@ -7,8 +7,8 @@ sudo: false
 
 
 install:
+  - python --version
   - pip install hisparc-sapphire
 
 script:
-  - python -v
   - python -c "import sapphire; sapphire.run_tests()"
